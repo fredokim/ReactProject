@@ -3,24 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.0",
     "eslint-config-prettier": "^6.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "0.9.x",
-"body-parser": "^1.18.3",
-"express": "^4.16.4"
+    "react-scripts": "0.9.x"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-config-standard": "^13.0.1",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-"concurrently": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.0"
   },
   "scripts": {
-"client": "cd client && yarn start",
-"server": "nodemon server.js",
-"dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
